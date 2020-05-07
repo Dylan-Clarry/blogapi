@@ -16,7 +16,7 @@ type DBConfig struct {
 func CreateConfig() *Config {
 	return &Config {
 		DB: &DBConfig {
-			Dialect: 	"Postgres",
+			Dialect: 	"postgres",
 			Host: 		"localhost",
 			Port: 		5432,
 			User: 		"testuser",
